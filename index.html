@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Oh My Dog!</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:300,700|Rubik:400,500" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-brown">
+            <div class="container mt-2">
+                <h1 class="navbar-brand color-white" href="#">OH MY DOG!</h1>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ml-auto">
+                        <h6 class="nav-item nav-link font-weight-light px-4 color-white small active" href="#">HOME</h6>
+                        <h6 class="nav-item nav-link font-weight-light px-4 color-white small" href="#">ABOUT</h6>
+                        <h6 class="nav-item nav-link font-weight-light px-4 color-white small" href="#">POSTS</h6>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container mt-5">
+        <div id="body" class="row">
+            <div id="posts" class="col-md-8">
+
+                <div class="post">
+                    <h4>This is the title of a really long post...</h4>
+                    <h6 class="small text-muted">by Tommy the Dog | September 4th 2018</h6>
+
+                    <img src="./images/jamie-street-804224-unsplash.jpg" alt="Dog" class="mt-4 img-fluid w-100 featured-image">
+
+                    <div class="post-content mt-4">
+                        <p class="text-justify">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus a nisi id metus pretium
+                            egestas non sit amet lorem. Proin blandit elementum lorem vitae euismod. Duis congue lorem
+                            sapien, ac elementum tortor euismod sit amet. Maecenas iaculis non velit eget feugiat.
+                            Nullam non neque neque. Sed feugiat eget nunc a egestas. Nulla dictum nisl lectus, vitae
+                            imperdiet urna posuere molestie. Vestibulum laoreet dolor nibh, at sagittis diam
+                            scelerisque in.
+                        </p>
+                        <p class="text-justify">
+                            Integer sit amet varius tellus. Nam id nunc nec justo tristique pharetra nec eu metus.
+                            Praesent volutpat quis quam ac ornare. Etiam quis tempus tortor. Nulla sit amet leo eget
+                            nibh
+                            posuere rhoncus. Suspendisse dui ligula, consequat at accumsan porttitor, tempor ut mauris.
+                            Proin
+                            fermentum porttitor lorem nec tempus. Vestibulum at justo sapien. Integer at rutrum erat,
+                            nec rutrum purus.
+                        </p>
+                        <p class="text-justify">
+                            Etiam fringilla auctor nibh, quis feugiat nulla auctor tincidunt. Donec consequat dui in
+                            pharetra congue. Vivamus diam augue, tincidunt nec pharetra tristique, sollicitudin et
+                            augue.
+                            Etiam vehicula id odio sit amet venenatis. Vestibulum pulvinar enim in lorem gravida
+                            lobortis.
+                            Fusce luctus nisl sed mauris ultrices, vel semper erat efficitur. Nunc auctor dolor a lacus
+                            ultrices, in tincidunt libero accumsan. Nunc velit mi, maximus eu rhoncus sed, fermentum
+                            nec
+                            quam.
+                        </p>
+                    </div>
+                </div>
+
+                <div id="pagination" class="my-4">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-outline-dark btn-sm disabled px-4">Previous</button>
+                        <button type="button" class="btn btn-dark btn-sm">1</button>
+                        <button type="button" class="btn btn-outline-dark btn-sm">2</button>
+                        <button type="button" class="btn btn-outline-dark btn-sm">3</button>
+                        <button type="button" class="btn btn-outline-dark btn-sm">4</button>
+                        <button type="button" class="btn btn-outline-dark btn-sm">5</button>
+                        <button type="button" class="btn btn-outline-dark btn-sm px-4">Next</button>
+                    </div>
+                </div>
+
+            </div>
+            <div id="sidebar" class="col-md-4">
+
+                <hr class="my-4">
+
+                <div id="search">
+                    <h6 class="font-weight-light">SEARCH THE BLOG</h6>
+                    <input type="text" class="form-control">
+                </div>
+
+                <hr class="my-4">
+
+                <div id="about">
+                    <h6 class="font-weight-light">ABOUT THE BLOG</h6>
+                    <img src="./images/joanna-kosinska-439234-unsplash.jpg" alt="About the Blog" class="img-fluid w-100">
+                    <p class="text-justify mt-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum aliquam quam sodales diam
+                        porta lobortis. Ut vehicula finibus fringilla. Phasellus rutrum magna ac magna commodo, vel
+                        tincidunt ligula tincidunt. Vestibulum diam lectus, porttitor ut imperdiet sed, sollicitudin
+                        non eros. Vivamus feugiat sem sapien, vel fringilla neque faucibus id.
+                    </p>
+                </div>
+
+                <hr class="my-4">
+
+                <div id="archives">
+                    <h6 class="font-weight-light">POST ARCHIVES</h6>
+                    <ul>
+                        <li><a href="#">September 2018</a></li>
+                        <li><a href="#">August 2018</a></li>
+                        <li><a href="#">July 2018</a></li>
+                        <li><a href="#">June 2018</a></li>
+                        <li><a href="#">May 2018</a></li>
+                    </ul>
+                </div>
+
+                <hr class="my-4">
+
+            </div>
+        </div>
+    </div>
+
+    <footer class="mt-4">
+        <div class="bg-brown w-100">
+            <div class="container py-2">
+                <span id="copyright" class="small text-white">&copy; Copyright 2018, Oh My Dog!</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
