@@ -16,6 +16,10 @@ h1, h2, h3, h4, h5, h6 {
     background-color: var(--omd-brown);
 }
 
+.text-brown {
+    color: var(--omd-brown);
+}
+
 .featured-image {
     height: 300px;
     object-fit: cover;
